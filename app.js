@@ -5,9 +5,9 @@ let publicPath = path.resolve(__dirname,'./public');
 
 app.use(express.static(publicPath));
 
-const port = process.env.PORT||3001;
+const PORT = process.env.PORT||3001;
 
-app.listen(port, ()=>console.log('servidor okey'));
+app.listen(PORT, ()=>console.log('servidor okey'));
 
 app.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname,'/view/index.html'))
