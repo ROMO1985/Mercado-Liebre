@@ -43,8 +43,13 @@ main section article i {
     position: absolute;
     right: 20px;
     top: -15px;
-    color: #39b54a
+    color: #39b54a;
+    transition: all 450ms;
 }
+main section article i:hover{
+    transform: rotate(-90deg);
+}
+
 
 img {
     width: 100%;
@@ -284,6 +289,13 @@ footer i {
 
     article {
         width: 50%;
+    }
+    .descripcion{
+        visibility: hidden;
+
+    }
+    article:hover .descripcion{
+        visibility:visible;
     }
 
     nav {
