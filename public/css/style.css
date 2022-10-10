@@ -158,7 +158,8 @@ main article {
 }
 
 .descripcion {
-    font-size: 16px;
+    font-size: 100%;
+    font-weight: 500;
 }
 
 main section div div {
