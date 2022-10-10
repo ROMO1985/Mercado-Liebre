@@ -1,0 +1,64 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-form input{
+    border: #fff solid 1px;
+    border-radius: .3em .3em;
+    margin-bottom: 3em;
+    height: 2em;
+    font-size: 0.9em;
+    width: 50vw;
+
+}
+
+.login-form button{
+    border: rgb(45, 2, 106) 1px solid;
+    border-radius: .3em .3em;
+    width: 20vw;
+    background-color:rgb(45, 2, 106) ;
+    color: #fff;
+}
+
+
+/*Formuarlio de Registro */
+.register-form{
+    display: flex;
+    flex-direction: column;
+
+}
+.input-register{
+        border: #fff solid 1px;
+        border-radius: .3em .3em;
+        margin-bottom: 3em;
+        height: 2em;
+        font-size: 0.9em;
+        width: 50vw;
+    
+    }
+.boton button{
+    border: rgb(45, 2, 106) 1px solid;
+    border-radius: .3em .3em;
+    width: 10vw;
+    background-color:rgb(45, 2, 106) ;
+    color: #fff;
+}
+.register-form .intereses{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width:361px){
+
+.etiquetaTitulo{
+        display: none;
+    }
+ .login-form button{
+
+    width: 50vw;
+    justify-content: center;
+}
+
+}

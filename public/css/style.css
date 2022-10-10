@@ -1,0 +1,431 @@
+@import url('formulario.css');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ebebeb;
+
+}
+
+header {
+    background-color: #EAC926;
+    width: 100%;
+
+}
+
+.banner-mercado-liebre {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    width: 90%;
+    padding: 5%;
+    align-items: center;
+    margin: auto;
+
+}
+
+main section article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: #39b54a
+}
+
+img {
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    width: 30vw;
+      
+}
+.logo-busqueda {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    margin: 2em;
+    flex-wrap: wrap;
+
+}
+
+img.logo-mercado-liebre {
+    width: 100%;
+    justify-content: center;
+
+}
+
+.form-busqueda{
+width: 33vw;
+position: relative;
+
+}
+.form-busqueda .buscador-home{
+width: 80%;
+position: absolute;
+top: 30%;
+
+justify-content: center;
+}
+
+i.icono-busqueda {
+    background-color: white;
+    margin-left: -5%;
+    align-self: center;
+    position: absolute;
+    top: 30%;
+    left: 82%;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* article{
+    display: flex;
+} */
+article div {
+    border-top: #ebebeb 1px solid;
+    padding-top: 15px;
+    background-color: #fff;
+    position: relative;
+}
+
+ul.nav-home li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+div.burger-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+i.icono-burger {
+    background-color: #1259c3;
+    border-radius: 5px;
+    border: #1259c3 5px solid;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 2em;
+
+}
+
+h2 {
+    font-size: 24px;
+    width: 100%;
+}
+
+main article {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 15px;
+}
+
+.precio {
+    font-size: 1.2em;
+    width: 30%;
+}
+
+.descuento {
+    font-size: 1.5em;
+    width: 70%;
+    color: #39b54a;
+    text-align: right;
+}
+
+.descripcion {
+    font-size: 16px;
+}
+
+main section div div {
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    background-color: #fff;
+
+}
+
+footer div.footer h4 {
+    padding: 2px;
+}
+
+footer div.footer p {
+    padding: 5px;
+}
+
+footer div.credit-card {
+    padding: 5px;
+    color: #0044aa;
+    font-size: 30px;
+}
+
+footer div.gifts {
+    padding: 5px;
+    color: #0044aa;
+    font-size: 30px;
+
+}
+
+footer i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+@media(max-width:361px) {
+    
+    .descripcion {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    i.icono-busqueda {
+        align-self: center;
+        font-size: 2ems;
+        position: absolute;
+        left: 60%;
+        bottom: 20%;
+        
+        
+    }
+    .logo-busqueda {
+        display: flex;
+        justify-content: center;
+        margin: 2em;
+        flex-wrap: wrap;
+    
+    }
+    .logo{
+        display: flex;
+        width: 50%;
+
+    }
+    
+    img.logo-mercado-liebre {
+        width: 100%;
+        justify-content: center;
+    
+    }
+    
+    .form-busqueda{
+    width: 50%;
+    position: relative;
+    
+    }
+    .form-busqueda .buscador-home{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    
+    justify-content: center;
+    }
+    
+    i.icono-busqueda {
+        font-size: 80%;
+        align-self: center;
+        position: absolute;
+        top: 40%;
+        left: 90%;
+    }
+    .buscador-home{
+        border: #FFF;
+    }
+
+    
+}
+
+
+@media(min-width:361px) {
+    body{
+        font-size: 8px;
+    }
+    .banner-mercado-liebre {
+        height: 100%;
+        width: 100vW;
+    }
+    
+    i.icono-busqueda{
+        font-size: 12px;
+    }
+
+    article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    article {
+        width: 50%;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 1em;
+        list-style-type: none;
+        ;
+    }
+
+    i.icono-burger {
+        display: none;
+    }
+
+    .contenedorVentas {
+        display: flex;
+        width: 40%;
+        margin-right: 2em;
+        justify-content: left;
+        margin-right: 5%;
+    }
+
+    .contenedorUsuarios {
+        display: flex;
+        justify-content: flex-end;
+        width: 40%;
+        justify-content: right;
+        margin-left: 5%;
+    }
+
+    div.compra-en-coutas {
+        display: inline-block;
+        width: 30vw;
+        position: relative;
+    }
+    div.compra-en-coutas p {
+        position: absolute;
+        justify-content: center;
+        top: 40%;
+    }
+
+    .logo-busqueda {
+        width: 100vw;
+    }
+
+    ul.nav-home {
+        display: flex;
+        width: 100vw;
+    }
+
+
+    
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    i.icono-busqueda {
+        background-color: white;
+        margin-left: 1%;
+        align-self: center;
+        font-size: 4ems;
+        padding: 0.2em;
+        border: solid rgb(0, 0, 0) 0.1em;
+        border-radius: 0.2em;
+    }
+}
+
+@media(min-width:769px) {
+    body{
+        font-size: 12px;
+    }
+
+    div.compra-en-coutas p {
+        position: absolute;
+        justify-content: center;
+        top: 10%;
+    }
+    
+    article {
+        width: 25%;
+    }
+
+    nav ul {
+        display: flex;
+
+    }
+
+    nav ul li {
+        margin: 1em;
+        list-style-type: none;
+        ;
+    }
+
+    i.icono-burger {
+        display: none;
+    }
+
+    .contenedorVentas {
+        display: flex;
+        width: 40%;
+        margin-right: 2em;
+        justify-content: left;
+        margin-right: 5%;
+    }
+
+    .contenedorUsuarios {
+        display: flex;
+        justify-content: flex-end;
+        width: 40%;
+        justify-content: right;
+        margin-left: 5%;
+    }
+
+    div.compra-en-coutas {
+        display: inline;
+        width: 30%;
+        justify-content: center;
+        padding-top: 5em;
+        margin-top: 2em;
+    }
+
+
+
+    ul.nav-home {
+        display: flex;
+        width: 100vw;
+    }
+
+    i.icono-busqueda {
+        background-color: white;
+        margin-left: 1%;
+        align-self: center;
+        font-size: 4ems;
+        padding: 0.2em;
+        border: solid rgb(0, 0, 0) 0.1em;
+        border-radius: 0.2em;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}   
